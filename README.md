@@ -30,5 +30,7 @@
 
 * [Here is an implementation of a binary search tree along somewhat different lines](https://gist.github.com/aidanhs/5ac9088ca0f6bdd4a370).
   Please borrow ideas from here.
+  + [bst.rs](http://www.cis.syr.edu/~royer/cis400/code/bst.rs)
+  + [dot.rs](http://www.cis.syr.edu/~royer/cis400/code/dot.rs)
   
 * Have a go at this over the weekend and we'll have a debugging session in Monday's class. 
