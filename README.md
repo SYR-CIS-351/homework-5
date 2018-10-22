@@ -15,22 +15,32 @@
   
 -------------------------------------------------------------------------------
 
-##### Problem: UPenn's CIS 198 "Homework 2: A Mediocre Binary Search Tree"
+##### Problem: UPenn's CIS 198 "Homework 2: A Mediocre Binary Search Tree" with a few late changes
 
 * [Here is the link to that homework description.](https://github.com/cis198-2016s/homework/tree/master/hw02)
   You can grab their starter code, but you won't be happy. 
 
-* I want an implementation more-or-less along the lines they describe.  I.e.,
+* **[New: October 22]**  We are switching to using TMLL's 
+  [Chapter 3: A Persistent Singly-Linked Stack](http://cglab.ca/%7Eabeinges/blah/too-many-lists/book/third.html)
+  as a basis for our search tree.  So the trees will be immutable, but we'll make a lot of trees to make up 
+  for that.  
+  
+* For more on persistent binary trees, see <https://en.wikipedia.org/wiki/Persistent_data_structure#Trees>
+  in <https://en.wikipedia.org/wiki/Persistent_data_structure>.
+  
+* Here are things I want implemented.
   + the basic data type definitions
   + a `new` function
   + a `search` function
   + a `insert` function
 
-* Expect trouble.
+* *Still* expect trouble.
 
+<!--
 * [Here is an implementation of a binary search tree along somewhat different lines](https://gist.github.com/aidanhs/5ac9088ca0f6bdd4a370).
   Please borrow ideas from here.
   + [bst.rs](http://www.cis.syr.edu/~royer/cis400/code/bst.rs)
   + [dot.rs](http://www.cis.syr.edu/~royer/cis400/code/dot.rs)
+-->
   
-* Have a go at this over the weekend and we'll have a debugging session in Monday's class. 
+* We'll have a another debugging session in Wednesday's class. 
